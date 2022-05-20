@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+:root {
+    --bgcolor: white;
+    --sidebarColor: rgb(52, 164, 255);
+    --accentColor: rgb(255, 187, 0);
+    --buttonColor: rgb(52, 164, 255);
+    --borderColor: red;
+    --gridBoxColor: orange;
+    --commonShadow: 0px 0px 5px 2px rgb(170, 170, 170);
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    width: 100vw;
+    height: 100vh;
+}
+
+div {
+    background-color: var(--gridBoxColor);
+    /* border: 1px solid var(--borderColor); */
+    text-align: center;
+}
+
+#sidebar {
+    z-index: 100;
+    background-color: var(--sidebarColor);
+    grid-column: 1 / 3;
+    grid-row: 1 / 11;
+}
+
+#header {
+    z-index: 50;
+    background-color: var(--bgcolor);
+    grid-column: 3 / 16;
+    grid-row: 1 / 3;
+    border-radius: 0 0 5px 5px;
+    box-shadow: var(--commonShadow)
+}
+
+#main-content {
+    z-index: 0;
+    background-color: var(--bgcolor);
+    grid-column: 3 / 16;
+    grid-row: 3 / 11;
+}
