@@ -18,7 +18,7 @@ Now that you’ve had plenty of practice using Grid, we are going to build a ful
 2. ~In your CSS file, apply Grid properties until you have this basic layout built.~
 
 ### Step 3: Nesting
-1. Taking it one section at a time, begin nesting child elements under the parent elements in the HTML. Remember that you can keep making grid containers within grid containers.
+1. ~Taking it one section at a time, begin nesting child elements under the parent elements in the HTML. Remember that you can keep making grid containers within grid containers.~
 2. In the sidebar, use more grids to lay out the navigation and branding sections.
 3. In the header, use more grids to lay out the search bar, user info and buttons.
 4. For the main-content, use more grids to lay out the projects, announcements and trending items.
